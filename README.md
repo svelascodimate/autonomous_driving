@@ -30,11 +30,10 @@ datasets. Here’s a brief overview of what you’ll find inside:
 - `nbs/modeling_nb.ipynb`: This notebook is dedicated to executing the
   topic modeling process.
 
-- `nbs/svd.kmeans.ipynb`: This python file is dedicated to executing the
-  topic modeling on bug issues extracted form github repositories of
-  Eclipse Fundation and Common Vehicle Interface Initiative. The
-  clusterization process uses kmeans with a td-idf respresentation of
-  documents.
+- `nbs/svd_bug_extractor.py`: This python file is dedicated to extract
+  SDV bugs exclusively from Eclipse Foundation. It also includes two
+  clusterings modules: 1) by bug tittle 2) by bug description. However
+  we use only the extracted dataset for the manual analysis.
 
 Visualizations are hosted in colab:
 [notebook](https://colab.research.google.com/drive/1NUnCK-vBq_YaB8O_d5Y-iBv4tLkkhySw?usp=sharing)
