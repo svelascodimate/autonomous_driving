@@ -31,7 +31,7 @@ datasets. Here’s a brief overview of what you’ll find inside:
   topic modeling process.
 
 Visualizations are hosted in colab:
-(notebook)\[https://colab.research.google.com/drive/1NUnCK-vBq_YaB8O_d5Y-iBv4tLkkhySw?usp=sharing\]
+[notebook](https://colab.research.google.com/drive/1NUnCK-vBq_YaB8O_d5Y-iBv4tLkkhySw?usp=sharing)
 
 - `/data/`: This directory contains the mined issues that we used in our
   project, this a valuable resource for anyone looking to explore
