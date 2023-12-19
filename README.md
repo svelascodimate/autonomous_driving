@@ -17,17 +17,21 @@ Software Defined Vehicles. This repository is meticulously organized to
 facilitate easy access and understanding of our methodologies and
 datasets. Here’s a brief overview of what you’ll find inside:
 
-- `01_github_miner.ipynb`: Methods for mining issues from software
-  repositories 01_topic_modeling.ipynb -\> Methods for topic modeling
-  using SentenceBERT
+- `core/01_github_miner.ipynb`: Methods for mining issues from software
+  repositories
 
-- `miner_nb.ipynb`: This is notebook designed to streamline the mining
-  process. It’s set up for immediate use, allowing you to execute the
-  mining procedures with ease and precision.
+- `core/01_topic_modeling.ipynb`: Methods for topic modeling using
+  SentenceBERT
 
-- `modeling_nb.ipynb`: This notebook is dedicated to executing the topic
-  modeling process. It also contains the visualization of the
-  embeddings.
+- `nbs/miner_nb.ipynb`: This is notebook designed to streamline the
+  mining process. It’s set up for immediate use, allowing you to execute
+  the mining procedures with ease and precision.
+
+- `nbs/modeling_nb.ipynb`: This notebook is dedicated to executing the
+  topic modeling process.
+
+Visualizations are hosted in colab:
+(notebook)\[https://colab.research.google.com/drive/1NUnCK-vBq_YaB8O_d5Y-iBv4tLkkhySw?usp=sharing\]
 
 - `/data/`: This directory contains the mined issues that we used in our
   project, this a valuable resource for anyone looking to explore

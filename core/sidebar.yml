@@ -1,0 +1,5 @@
+website:
+  sidebar:
+    contents:
+      - 01_github_miner.ipynb
+      - 01_topic_modeling.ipynb
