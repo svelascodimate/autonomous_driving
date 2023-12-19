@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "01_topic_modeling.html",
+    "href": "01_topic_modeling.html",
+    "title": "Topic Modeling",
+    "section": "",
+    "text": "Module with methods to perform topic modeling\n\n\n\nsource\n\nload_data_from_json\n\n load_data_from_json (filename)\n\nLoad data from a JSON file.\n\nsource\n\n\nremove_stop_words\n\n remove_stop_words (issue_body)\n\nClean the text of a GitHub issue for topic modeling.\n\nsource\n\n\ndeep_clean_text\n\n deep_clean_text (text)\n\nClean and curate the text from a GitHub issue for better processing with BERTopic.\nParameters: issue_body (str): The text content of a GitHub issue.\nReturns: str: Cleaned and curated text.\n\nsource\n\n\nget_body_from_issues\n\n get_body_from_issues (issues:list)\n\n\nsource\n\n\ngenerate_topic_name\n\n generate_topic_name (keywords, OPEN_AI_KEY)"
+  },
+  {
+    "objectID": "01_github_miner.html",
+    "href": "01_github_miner.html",
+    "title": "Github Miner",
+    "section": "",
+    "text": "Module to extract issues from github open source repositories\n\n\n\nsource\n\nsearch_github_issues\n\n search_github_issues (query, headers, GITHUB_API_URL, page=1,\n                       per_page=10)\n\nSearch issues across repositories on GitHub.\n\nsource\n\n\nextract_issue_data\n\n extract_issue_data (issues)\n\nExtract relevant data from issues.\n\nsource\n\n\ndate_range\n\n date_range (start_date, end_date, delta=datetime.timedelta(days=365))\n\nGenerate date ranges.\n\nsource\n\n\nsave_data_to_json\n\n save_data_to_json (data, filename)\n\nSave data to a JSON file.\n\nsource\n\n\nload_data_from_json\n\n load_data_from_json (filename)\n\nLoad data from a JSON file.\n\nsource\n\n\nappend_new_data_to_json\n\n append_new_data_to_json (new_data, filename)\n\nAppend new data to an existing JSON file.\n\nsource\n\n\nfetch_data_and_get_results_by_count\n\n fetch_data_and_get_results_by_count (query:str, HEADERS, GITHUB_API_URL)\n\nfetch issues matching the query and returns the max possible number of issues\n\nsource\n\n\nfetch_data_and_get_results_by_date\n\n fetch_data_and_get_results_by_date (query:str,\n                                     start_date:datetime.datetime,\n                                     HEADERS, GITHUB_API_URL)"
+  }
+]
