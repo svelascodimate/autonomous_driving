@@ -30,6 +30,12 @@ datasets. Here’s a brief overview of what you’ll find inside:
 - `nbs/modeling_nb.ipynb`: This notebook is dedicated to executing the
   topic modeling process.
 
+- `nbs/svd.kmeans.ipynb`: This python file is dedicated to executing the
+  topic modeling on bug issues extracted form github repositories of
+  Eclipse Fundation and Common Vehicle Interface Initiative. The
+  clusterization process uses kmeans with a td-idf respresentation of
+  documents.
+
 Visualizations are hosted in colab:
 [notebook](https://colab.research.google.com/drive/1NUnCK-vBq_YaB8O_d5Y-iBv4tLkkhySw?usp=sharing)
 
